@@ -2,8 +2,8 @@
 A Spring Boot application that provides a RESTful API for creating and accessing shortened URLs.
 
 ## Features
-- Create a short URL from a long URL
-- Redirect to the original URL using the short URL code
+- Create a short URL from a long URL.
+- Redirect to the original URL using the short URL code.
 
 ## Tech Stack
 - Java 22
