@@ -66,11 +66,10 @@ If the short URL is found, the server will respond with a 302 Found status and t
 HTTP/1.1 302 Found
 Location: https://www.example.com/very/long/url
 ```
+
 If the short URL is not found, the server will respond with a 404 Not Found status and an error message:
 ```http
 HTTP/1.1 404 Not Found
-Content-Length: 57
-Content-Type: text/plain;charset=UTF-8
 
 Short URL with code 'abc123' not found.
 ```
